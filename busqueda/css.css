@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-image: url('https://images8.alphacoders.com/129/1298043.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black; 
+}
+
+h2, p {
+    color: white; 
+    text-shadow: 1px 1px 2px black;
+}
+
+input, button {
+    margin: 10px;
+    color: white; 
+}
+
+input {
+    background-color: black;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+button {
+    background-color: black; 
+    border: 1px solid white; 
+    color: white; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px; 
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    width: 80%; 
+}
+
+table {
+    border-collapse: separate; 
+    border-spacing: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid white; 
+    padding: 8px;
+    text-align: left;
+    color: white; 
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+td {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.hidden {
+    display: none;
+}
